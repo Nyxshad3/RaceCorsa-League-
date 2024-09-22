@@ -1,0 +1,166 @@
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #222;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.logo {
+    max-width: 150px;
+    margin-bottom: 10px;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header nav ul li a:hover {
+    color: #ff9800;
+}
+
+/* Main Content */
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.hero {
+    background: url('https://example.com/rennstrecke.jpg') no-repeat center center/cover;
+    color: white;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.hero h2 {
+    font-size: 2.5rem;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-top: 10px;
+}
+
+section h2 {
+    margin-bottom: 10px;
+    color: #333;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+ul li {
+    background: #ff9800;
+    color: white;
+    margin-bottom: 5px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: #222;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+
+footer p {
+    margin: 0;
+}
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RaceCorsa League</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <img src="path/to/logo.webp" alt="RaceCorsa League Logo" class="logo">
+            <nav>
+                <ul>
+                    <li><a href="#home">Startseite</a></li>
+                    <li><a href="#kalender">Rennkalender</a></li>
+                    <li><a href="#teams">Fahrer & Teams</a></li>
+                    <li><a href="#ergebnisse">Ergebnisse</a></li>
+                    <li><a href="#regelwerk">Regelwerk</a></li>
+                    <li><a href="#kontakt">Kontakt & Anmeldung</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="container">
+                <h2>Willkommen zur RaceCorsa League 2024</h2>
+                <p>Die aufregendste virtuelle Rennliga für ACC und iRacing startet im Juli 2024. Seid bereit für epische Rennen auf den besten Strecken der Welt!</p>
+            </div>
+        </section>
+
+        <section id="kalender" class="container">
+            <h2>ACC Rennkalender 2024</h2>
+            <ul>
+                <li>Juli 2024 – Nürburgring (Deutschland)</li>
+                <li>Juli 2024 – Monza (Italien)</li>
+                <li>August 2024 – Spa-Francorchamps (Belgien)</li>
+                <li>August 2024 – Silverstone (Großbritannien)</li>
+                <li>September 2024 – Misano (Italien)</li>
+                <li>September 2024 – Barcelona (Spanien)</li>
+                <li>Oktober 2024 – Kyalami (Südafrika)</li>
+                <li>Oktober 2024 – Imola (Italien)</li>
+                <li>November 2024 – Mount Panorama (Australien)</li>
+                <li>November 2024 – Suzuka (Japan)</li>
+            </ul>
+
+            <h2>iRacing Rennkalender 2024</h2>
+            <ul>
+                <li>Juli 2024 – Watkins Glen (USA)</li>
+                <li>Juli 2024 – Circuit de la Sarthe (Frankreich)</li>
+                <li>August 2024 – Road Atlanta (USA)</li>
+                <li>August 2024 – Laguna Seca (USA)</li>
+                <li>September 2024 – Suzuka Circuit (Japan)</li>
+                <li>September 2024 – Circuit Gilles Villeneuve (Kanada)</li>
+                <li>Oktober 2024 – Bathurst (Australien)</li>
+                <li>Oktober 2024 – Interlagos (Brasilien)</li>
+                <li>November 2024 – Imola (Italien)</li>
+                <li>November 2024 – Daytona Road Course (USA)</li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 RaceCorsa League - Alle Rechte vorbehalten</p>
+        </div>
+    </footer>
+</body>
+</html>
+
